@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Include Navbar -->
+            <div id="navbar">
+                <!-- Navbar content will be loaded here -->
+            </div>
+        </header>
+        <aside>
+            <!-- Include Sidebar -->
+            <div id="sidebar">
+                <!-- Sidebar content will be loaded here -->
+            </div>
+        </aside>
+        <main>
+            <section class="hero">
+                <h1>Welcome to Your Music</h1>
+                <p>Discover new music and enjoy your favorites.</p>
+            </section>
+            <section class="playlists">
+                <h2>Your Playlists</h2>
+                <!-- Include Track List -->
+                <div id="track-list">
+                    <!-- Track list content will be loaded here -->
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!-- Include Player -->
+            <div id="player">
+                <!-- Player content will be loaded here -->
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Load components dynamically
+        document.getElementById('navbar').innerHTML = '<!-- Load navbar.html content here -->';
+        document.getElementById('sidebar').innerHTML = '<!-- Load sidebar.html content here -->';
+        document.getElementById('track-list').innerHTML = '<!-- Load track-list.html content here -->';
+        document.getElementById('player').innerHTML = '<!-- Load player.html content here -->';
+    </script>
+</body>
+</html>
